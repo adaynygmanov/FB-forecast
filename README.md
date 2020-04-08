@@ -11,7 +11,7 @@ Step 2: Initial ACF and PACF
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/ACF%20and%20PACF1.png)
 
-Step 3: Look at residuals for the auto.arima and custom arima models based on the determined pdq values. Below is Custom Arima from fit2 above applied to original dataset
+Step 3: Looking at residuals for the auto.arima and custom arima models based on the determined pdq values. Below is Custom Arima from fit2 above applied to original dataset
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Custom%20arima%20model%20residuals.png)
 
