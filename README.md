@@ -1,39 +1,29 @@
-# FB-forecast
-FB Stock Forecast in R with ARIMA (Autoregressive Integrated Moving Average) (scripts and graphs)
+# FB Stock Forecast
+FB Stock Forecast in R with ARIMA (Autoregressive Integrated Moving Average).
+
+Step 1: Importing data
 
 Daily close prices for the period 2015-2020 (4th column)
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/FB%20Close%20Prices.png)
 
-Initial ACF and PACF 
+Step 2: Initial ACF and PACF 
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/ACF%20and%20PACF1.png)
 
-Look at residuals for the auto.arima and custom arima models based on the above determined pdq values
-Custom Arima from fit2 above applied to original dataset
+Step 3: Look at residuals for the auto.arima and custom arima models based on the determined pdq values. Below is Custom Arima from fit2 above applied to original dataset
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Custom%20arima%20model%20residuals.png)
 
-Forecasts from ARIMA, Look closely at auto arima on original dataset
+Step 4: Forecasts from ARIMA, looking closely at auto arima on original dataset
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Forecasts%20with%20ARIMA2.png)
 
-Forecast 4
-
-
-
-![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Custom%20arima%20forecast.png)
-
-
-
-Accuracy 
-
+Step 5: Checking for accuracy 
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Accuracy.png)
 
-
-
-Actual forecasted values
+Step 6: Actual forecasted values
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Actual%20forecasted%20values.png)
 
