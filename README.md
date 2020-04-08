@@ -23,7 +23,11 @@ Step 5: Checking for accuracy
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Accuracy.png)
 
-Step 6: Actual forecasted values
+Step 6: 99.4% accuracy by MAPE (Mean Average Percent Error) for the custom arima applied to original, non-log returns, dataset
+
+![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Custom%20arima%20forecast.png)
+
+Step 7: Actual forecasted values
 
 ![Image](https://github.com/adaynygmanov/FB-forecast/blob/master/Charts/Actual%20forecasted%20values.png)
 
